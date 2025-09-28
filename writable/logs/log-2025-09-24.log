@@ -1,0 +1,471 @@
+CRITICAL - 2025-09-24 04:38:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "affichage_çcertificat_deces.php"
+[Method: GET, Route: affichage_certificat_deces]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('affichage_çcertificat_deces.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichage_çcertificat_deces', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('affichage_çcertificat_deces')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->affichageCertificatDeces()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 04:38:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "affichage_çcertificat_deces.php"
+[Method: GET, Route: affichage_certificat_deces]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('affichage_çcertificat_deces.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichage_çcertificat_deces', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('affichage_çcertificat_deces')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->affichageCertificatDeces()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 04:53:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "affichage_certificat_deces.php"
+[Method: GET, Route: affichage_certificat_deces]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('affichage_certificat_deces.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichage_certificat_deces', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('affichage_certificat_deces')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->affichageCertificatDeces()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 04:53:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "certificat_deces.php"
+[Method: GET, Route: certificat_deces]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('certificat_deces.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('certificat_deces', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('certificat_deces')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->certificatDeces()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 04:53:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "certificat_deces.php"
+[Method: GET, Route: certificat_deces]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('certificat_deces.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('certificat_deces', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('certificat_deces')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->certificatDeces()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 06:39:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "certificat_deces.php"
+[Method: GET, Route: certificat_deces]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('certificat_deces.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('certificat_deces', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('certificat_deces')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->certificatDeces()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+DEBUG - 2025-09-24 15:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 15:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 15:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 15:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 15:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 15:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 15:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 15:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 15:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 15:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 16:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 16:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-24 17:14:57 --> TypeError: trim(): Argument #1 ($string) must be of type string, array given
+[Method: POST, Route: enregistrement]
+in APPPATH\Controllers\Home.php on line 97.
+ 1 APPPATH\Controllers\Home.php(97): trim([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+DEBUG - 2025-09-24 17:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-24 17:45:54 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 101.
+ 1 APPPATH\Controllers\Home.php(101): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:45:54 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 APPPATH\Controllers\Home.php(103): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:45:54 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 104.
+ 1 APPPATH\Controllers\Home.php(104): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:45:54 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 108.
+ 1 APPPATH\Controllers\Home.php(108): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:45:54 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+ERROR - 2025-09-24 17:45:54 --> mysqli_sql_exception: Column 'date_naissance' cannot be null in C:\laragon\www\fokontany\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\fokontany\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ha...', 0)
+#1 C:\laragon\www\fokontany\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ha...')
+#2 C:\laragon\www\fokontany\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ha...')
+#3 C:\laragon\www\fokontany\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ha...', Array, false)
+#4 C:\laragon\www\fokontany\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\fokontany\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\fokontany\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\fokontany\app\Controllers\Home.php(160): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\fokontany\system\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+#9 C:\laragon\www\fokontany\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\laragon\www\fokontany\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\fokontany\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\fokontany\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\fokontany\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\laragon\www\fokontany\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2025-09-24 17:45:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'date_naissance' cannot be null
+[Method: POST, Route: enregistrement]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (:nom:, :prenom:, :cin:, :num_copie:, :date_naissance:, :lieu_naissance:, :situation_matrimoniale:, :sexe:, :profession:, :adresse:, :idPere:, :idMere:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 17:45:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'date_naissance' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (:nom:, :prenom:, :cin:, :num_copie:, :date_naissance:, :lieu_naissance:, :situation_matrimoniale:, :sexe:, :profession:, :adresse:, :idPere:, :idMere:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 17:45:54 --> [Caused by] mysqli_sql_exception: Column 'date_naissance' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (:nom:, :prenom:, :cin:, :num_copie:, :date_naissance:, :lieu_naissance:, :situation_matrimoniale:, :sexe:, :profession:, :adresse:, :idPere:, :idMere:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+DEBUG - 2025-09-24 17:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-24 17:46:22 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 101.
+ 1 APPPATH\Controllers\Home.php(101): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:46:22 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 APPPATH\Controllers\Home.php(103): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:46:22 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 104.
+ 1 APPPATH\Controllers\Home.php(104): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:46:22 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 108.
+ 1 APPPATH\Controllers\Home.php(108): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:46:22 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+ERROR - 2025-09-24 17:46:22 --> mysqli_sql_exception: Column 'date_naissance' cannot be null in C:\laragon\www\fokontany\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\fokontany\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ha...', 0)
+#1 C:\laragon\www\fokontany\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ha...')
+#2 C:\laragon\www\fokontany\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ha...')
+#3 C:\laragon\www\fokontany\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ha...', Array, false)
+#4 C:\laragon\www\fokontany\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\fokontany\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\fokontany\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\fokontany\app\Controllers\Home.php(160): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\fokontany\system\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+#9 C:\laragon\www\fokontany\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\laragon\www\fokontany\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\fokontany\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\fokontany\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\fokontany\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\laragon\www\fokontany\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2025-09-24 17:46:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'date_naissance' cannot be null
+[Method: POST, Route: enregistrement]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (:nom:, :prenom:, :cin:, :num_copie:, :date_naissance:, :lieu_naissance:, :situation_matrimoniale:, :sexe:, :profession:, :adresse:, :idPere:, :idMere:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 17:46:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'date_naissance' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (:nom:, :prenom:, :cin:, :num_copie:, :date_naissance:, :lieu_naissance:, :situation_matrimoniale:, :sexe:, :profession:, :adresse:, :idPere:, :idMere:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 17:46:22 --> [Caused by] mysqli_sql_exception: Column 'date_naissance' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (:nom:, :prenom:, :cin:, :num_copie:, :date_naissance:, :lieu_naissance:, :situation_matrimoniale:, :sexe:, :profession:, :adresse:, :idPere:, :idMere:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:48:18 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 101.
+ 1 APPPATH\Controllers\Home.php(101): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:48:18 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 APPPATH\Controllers\Home.php(103): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:48:18 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 104.
+ 1 APPPATH\Controllers\Home.php(104): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:48:18 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 108.
+ 1 APPPATH\Controllers\Home.php(108): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:48:18 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+ERROR - 2025-09-24 17:48:18 --> mysqli_sql_exception: Column 'date_naissance' cannot be null in C:\laragon\www\fokontany\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\fokontany\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ha...', 0)
+#1 C:\laragon\www\fokontany\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ha...')
+#2 C:\laragon\www\fokontany\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ha...')
+#3 C:\laragon\www\fokontany\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ha...', Array, false)
+#4 C:\laragon\www\fokontany\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\fokontany\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\fokontany\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\fokontany\app\Controllers\Home.php(160): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\fokontany\system\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+#9 C:\laragon\www\fokontany\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\laragon\www\fokontany\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\fokontany\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\fokontany\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\fokontany\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\laragon\www\fokontany\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2025-09-24 17:48:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'date_naissance' cannot be null
+[Method: POST, Route: enregistrement]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (:nom:, :prenom:, :cin:, :num_copie:, :date_naissance:, :lieu_naissance:, :situation_matrimoniale:, :sexe:, :profession:, :adresse:, :idPere:, :idMere:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 17:48:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'date_naissance' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (:nom:, :prenom:, :cin:, :num_copie:, :date_naissance:, :lieu_naissance:, :situation_matrimoniale:, :sexe:, :profession:, :adresse:, :idPere:, :idMere:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-24 17:48:18 --> [Caused by] mysqli_sql_exception: Column 'date_naissance' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (\'ghjk\', \'hj\', \'54\', \'\', NULL, \'\', \'\', \'Lahy\', \'hjbknl\', \'jbnkl,\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `habitant` (`nom`, `prenom`, `cin`, `num_copie`, `date_naissance`, `lieu_naissance`, `situation_matrimoniale`, `sexe`, `profession`, `adresse`, `idPere`, `idMere`) VALUES (:nom:, :prenom:, :cin:, :num_copie:, :date_naissance:, :lieu_naissance:, :situation_matrimoniale:, :sexe:, :profession:, :adresse:, :idPere:, :idMere:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+DEBUG - 2025-09-24 17:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-24 17:48:26 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 108.
+ 1 APPPATH\Controllers\Home.php(108): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+WARNING - 2025-09-24 17:48:26 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ajoutHabitant()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+DEBUG - 2025-09-24 17:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 17:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-24 18:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

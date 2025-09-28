@@ -1,0 +1,76 @@
+DEBUG - 2025-09-22 01:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-22 01:39:13 --> ErrorException: Undefined array key "cin"
+[Method: POST, Route: Residence/genererResidence]
+in APPPATH\Views\residence.php on line 32.
+ 1 APPPATH\Views\residence.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin"', 'C:\\laragon\\www\\fokontany\\app\\Views\\residence.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\fokontany\\app\\Views\\residence.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('residence', [], true)
+ 5 APPPATH\Controllers\Residence.php(39): view('residence', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Residence->genererResidence()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residence))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-22 01:39:35 --> ErrorException: Undefined array key "cin"
+[Method: POST, Route: Residence/genererResidence]
+in APPPATH\Views\residence.php on line 32.
+ 1 APPPATH\Views\residence.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin"', 'C:\\laragon\\www\\fokontany\\app\\Views\\residence.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\fokontany\\app\\Views\\residence.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('residence', [], true)
+ 5 APPPATH\Controllers\Residence.php(39): view('residence', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Residence->genererResidence()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residence))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-22 01:40:57 --> ErrorException: Undefined array key "cin"
+[Method: POST, Route: Residence/genererResidence]
+in APPPATH\Views\residence.php on line 32.
+ 1 APPPATH\Views\residence.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin"', 'C:\\laragon\\www\\fokontany\\app\\Views\\residence.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\fokontany\\app\\Views\\residence.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('residence', [], true)
+ 5 APPPATH\Controllers\Residence.php(39): view('residence', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Residence->genererResidence()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residence))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-22 01:45:42 --> ErrorException: Undefined array key "cin"
+[Method: POST, Route: Residence/genererResidence]
+in APPPATH\Views\residence.php on line 32.
+ 1 APPPATH\Views\residence.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin"', 'C:\\laragon\\www\\fokontany\\app\\Views\\residence.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\fokontany\\app\\Views\\residence.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('residence', [], true)
+ 5 APPPATH\Controllers\Residence.php(39): view('residence', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Residence->genererResidence()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residence))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
+CRITICAL - 2025-09-22 01:49:37 --> ErrorException: Undefined array key "cin"
+[Method: POST, Route: Residence/genererResidence]
+in APPPATH\Views\residence.php on line 32.
+ 1 APPPATH\Views\residence.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin"', 'C:\\laragon\\www\\fokontany\\app\\Views\\residence.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\fokontany\\app\\Views\\residence.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('residence', [], true)
+ 5 APPPATH\Controllers\Residence.php(39): view('residence', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Residence->genererResidence()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residence))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\fokontany\\public\\index.php')
