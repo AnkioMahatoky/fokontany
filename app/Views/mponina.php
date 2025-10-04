@@ -416,12 +416,12 @@ use App\Controllers\AdminDashboard;
                   $('#passwordModal').modal('hide'); // ferme le modal
                   location.reload(); // recharge la page
               } else {
-                  alert("❌ " + response.message);
+                  alert("!!! " + response.message);
               }
               $("#passwordModal").modal('hide');
           },
           error: function() {
-              alert("❌ Nisy olana ny serveur !");
+              alert("!!! Nisy olana ny serveur !");
           }
       });
   });

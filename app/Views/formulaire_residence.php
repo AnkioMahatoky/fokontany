@@ -99,7 +99,8 @@
             <?php endif; ?>
           <form method="post" action="<?=base_url('Residence/affichage_certificat_residence')?>">
               <label for="nom">Anarana</label><br>
-              <input type="text" class="form-control" name="nom" required value="<?= old('nom') ?>"><br>
+              <input type="text" class="form-control" name="nom" required value="<?= old('nom') ?>" oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')"><br>
 
               <label for="prenom">Fanampiny</label><br>
               <input type="text" class="form-control" name="prenom" required value="<?= old('prenom') ?>"><br>

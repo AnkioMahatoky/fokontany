@@ -94,7 +94,8 @@
             <?php endif; ?>
           <form method="post" action="<?=base_url('Deces/affichage_certificat_deces')?>">
               <label for="nom">Anarana</label><br>
-                <input type="text" class="form-control" name="nom" required value="<?= old('nom') ?>"><br>
+                <input type="text" class="form-control" name="nom" required value="<?= old('nom') ?>" oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')"><br>
 
               <label for="prenom">Fanampiny</label><br>
                 <input type="text" class="form-control" name="prenom" value="<?= old('prenom') ?>"><br>
@@ -103,13 +104,16 @@
                     <input type="text" class="form-control" name="cin" value="<?= old('cin') ?>"><br>
                 
                 <label for="mpitsabo">Anaran'ny mpitsabo</label><br>
-                    <input type="text" class="form-control" name="mpitsabo" value="<?= old('mpitsabo') ?>"><br>
+                    <input type="text" class="form-control" name="mpitsabo" value="<?= old('mpitsabo') ?>" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')"><br>
 
                 <label for="motif">Anton'ny nahafatesany</label><br>
-                    <input type="text" class="form-control" name="motif" value="<?= old('motif') ?>"><br>
+                    <input type="text" class="form-control" name="motif" value="<?= old('motif') ?>" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')"><br>
 
                 <label for="date">Daty nahafatesany</label><br>
-                    <input type="date" class="form-control" name="date" value="<?= old('date') ?>"><br>
+                    <input type="date" class="form-control" name="date" value="<?= old('date') ?>" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')"><br>
 
                 <label for="heure">Ora nahafatesany</label><br>
                     <input type="text" class="form-control" name="heure" value="<?= old('heure') ?>"><br>
