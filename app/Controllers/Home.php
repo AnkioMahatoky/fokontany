@@ -53,7 +53,7 @@ class Home extends BaseController
             }
         }
 
-        return view('seconnecter', ['erreur' => 'Nom ou mot de passe incorrect']);
+        return view('seconnecter', ['erreur' => 'Anarana na teny miafina misy diso!!']);
     }
 
 

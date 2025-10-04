@@ -77,7 +77,7 @@
 
         <form action="<?= base_url('adminInscription/submit') ?>" method="post">
             <div class="input-group mb-3">
-                <input type="text" name="nom" class="form-control" placeholder="Anarana" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+                <input type="text" name="nom" class="form-control" placeholder="Anarana fiantso" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
   oninput="this.setCustomValidity('')">
                 <div class="input-group-append">
                     <div class="input-group-text">
@@ -97,7 +97,8 @@
             </div>
 
             <div class="input-group mb-3">
-                <input type="password" name="mot_de_passe" class="form-control" placeholder="Teny miafina" required pattern="\d{10}">
+                <input type="password" name="mot_de_passe" class="form-control" placeholder="Teny miafina" required minlength="8" oninvalid="this.setCustomValidity('Litera 8 farafahakeliny')"
+  oninput="this.setCustomValidity('')">
                 <div class="input-group-append">
                     <div class="input-group-text">
                         <span class="fas fa-lock"></span>
@@ -106,7 +107,8 @@
             </div>
 
             <div class="input-group mb-3">
-                <input type="password" name="confirm_mdp" class="form-control" placeholder="Amarino ny Teny miafina" required pattern="\d{10}">
+                <input type="password" name="confirm_mdp" class="form-control" placeholder="Amarino ny Teny miafina" required minlength="8" oninvalid="this.setCustomValidity('Litera 8 farafahakeliny')"
+  oninput="this.setCustomValidity('')">
                 <div class="input-group-append">
                     <div class="input-group-text">
                         <span class="fas fa-lock"></span>

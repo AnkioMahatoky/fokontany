@@ -51,6 +51,7 @@
             width: 30vw;
             height: 3.3vw;
             border: none;
+            cursor: pointer;
         }
         h2,a{
             color: #818181bd;
@@ -81,13 +82,17 @@
             <h2>Hamorona kaonty</h2>
             <form action="inscription" method="POST">
                 <label for="">Solon'anarana</label><br>
-                <input type="text" name="nom" title="Tsy maintsy fenoina ity!" required><br>
+                <input type="text" name="nom" title="Tsy maintsy fenoina ity!" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')"><br>
                 <label for="">Laharana finday</label><br>
-                <input type="text" name="tel" pattern="\d{10}" minlength="10" maxlength="10" required><br>
+                <input type="text" name="tel" pattern="\d{10}" minlength="10" maxlength="10" required oninvalid="this.setCustomValidity('Nomerao marina ahafahanay mifandray aminao')"
+  oninput="this.setCustomValidity('')"><br>
                 <label for="">Teny miafina</label><br>
-                <input type="password" name="mdp" required minlength="8"><br>
+                <input type="password" name="mdp" required minlength="8" oninvalid="this.setCustomValidity('Litera 8 farafahakeliny')"
+  oninput="this.setCustomValidity('')"><br>
                 <label for="">Amarino ny teny miafina</label><br>
-                <input type="password" name="cmdp" required minlength="8"><br>
+                <input type="password" name="cmdp" required minlength="8" oninvalid="this.setCustomValidity('Litera 8 farafahakeliny')"
+  oninput="this.setCustomValidity('')"><br>
                 <?php if(!empty($erreur)):?>
                     <!-- <script>
                         alert("")

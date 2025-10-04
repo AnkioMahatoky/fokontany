@@ -47,7 +47,7 @@
 
           <div class="col-md-6">
             <label for="cin" class="form-label">Laharana karapanondro</label>
-            <input type="text" class="form-control" name="cin" id="cin" required value="<?= old('cin') ?>" oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+            <input type="text" class="form-control" name="cin" id="cin" value="<?= old('cin') ?>" pattern="\d{12}" minlength="12" maxlength="12" oninvalid="this.setCustomValidity('Tsy maintsy miisa 12 ny laharana')"
   oninput="this.setCustomValidity('')">
           </div>
 
@@ -71,7 +71,7 @@
 
           <div class="col-md-6">
             <label for="situation_matrimoniale" class="form-label">Toe-panambadiana</label>
-            <select class="form-select" name="situation_matrimoniale" id="situation_matrimoniale" value="<?= old('situation_matrimoniale') ?>" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+            <select class="form-select" name="situation_matrimoniale" id="situation_matrimoniale" value="<?= old('situation_matrimoniale') ?>" required oninvalid="this.setCustomValidity('Misafidiana amin\'ireo anaty lisitra')"
   oninput="this.setCustomValidity('')">
               <option value="" disabled selected hidden>-- Misafidiana --</option>
               <option value="Mpitovo">Mpitovo</option>
@@ -88,7 +88,7 @@
 
           <div class="col-md-6">
             <label for="sexe" class="form-label">Sokajy</label>
-            <select class="form-select" name="sexe" id="sexe" value="<?= old('sexe') ?>" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+            <select class="form-select" name="sexe" id="sexe" value="<?= old('sexe') ?>" required oninvalid="this.setCustomValidity('Misafidiana amin\'ireo anaty lisitra')"
   oninput="this.setCustomValidity('')"> 
               <option value="" disabled selected hidden>-- Misafidiana --</option>
               <option value="Lahy">Lahy</option>
@@ -141,7 +141,7 @@
           </div>
           <div class="col-12 d-grid">
             <a class="btn btn-app bg-secondary text-white" href="<?= base_url('/mponina') ?>">
-                <i class="fas fa-back"></i> Hijery
+                <i class="fas fa-back"></i> Hijery ny lisitra
             </a>
           </div>
 

@@ -19,8 +19,8 @@ class Fanampidirana extends BaseController
     {
         $model = new HabitantModel2();
 
-        $nom        = trim($this->request->getPost('nom'));
-        $prenom     = trim($this->request->getPost('prenom'));
+        $nom        = strtoupper(trim($this->request->getPost('nom')));
+        $prenom     = ucfirst(trim($this->request->getPost('prenom')));
         $cin        = trim($this->request->getPost('cin'));
         $numCopie   = trim($this->request->getPost('num_copie'));
         $dateNaiss  = $this->request->getPost('date_naissance');

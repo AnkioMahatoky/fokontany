@@ -333,7 +333,7 @@ use App\Controllers\AdminDashboard;
     $(function () {
         var pieChartCanvas = $('#pieChart2').get(0).getContext('2d');
         var pieData = {
-            labels: ['Manambady', 'Célibataire', 'Maty vady'],
+            labels: ['Manambady', 'Mpitovo', 'Nisara-panambadiana'],
             datasets: [{
                 data: [<?= $marie ?>, <?= $celibat ?>, <?= $veuf ?>],
                 backgroundColor: ['#fd7e14', '#007bff', '#6f42c1' ],

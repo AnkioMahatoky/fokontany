@@ -17,7 +17,7 @@ class AdminDashboard extends BaseController
         $data['nbAdulte'] = $habitantModel->countAdults();
 
         if (!$session->get('isLoggedIn')) {
-            return redirect()->to('/adminConnexion')->with('error', 'Vous devez vous connecter.');
+            return redirect()->to('/adminConnexion')->with('error', 'Mila miditra ianao.');
         }
 
         $stats = $habitantModel->getStatsMensuelles();
@@ -45,17 +45,23 @@ class AdminDashboard extends BaseController
                 $builder->where('h.idMere IS NOT NULL');
                 $builder->groupBy(['h.idPere', 'h.idMere']);
                 $data['rows'] = $builder->get()->getResultArray();
-                $data['columns'] = ['ID Père', 'ID Mère', 'Père', 'Mère', 'Enfants'];
+                $data['columns'] = ['ID Ray', 'ID Reny', 'Ray', 'Reny', 'Zanaka'];
                 break;
             
             case 'vivants':
-                $data['rows'] = $habitantModel->where('status', 'Velona')->findAll();
-                $data['columns'] = ['ID', 'Nom Complet', 'Date Naissance', 'Sexe', 'Profession'];
+                $builder = $habitantModel->db->table('habitant');
+                $builder->select('idHabitant, CONCAT(nom, " ", prenom) AS nom_complet, date_naissance, sexe, profession');
+                $builder->where('status', 'Velona');
+                $data['rows'] = $builder->get()->getResultArray();
+                $data['columns'] = ['ID', 'Anarana Feno', 'Daty nahaterahana', 'Sokajy', 'Asa'];
                 break;
             
             case 'decedes':
-                $data['rows'] = $habitantModel->where('status', 'Maty')->findAll();
-                $data['columns'] = ['ID', 'Nom Complet', 'Date Naissance', 'Sexe', 'Profession'];
+                $builder = $habitantModel->db->table('habitant');
+                $builder->select('idHabitant, CONCAT(nom, " ", prenom) AS nom_complet, date_naissance, sexe, profession');
+                $builder->where('status', 'Maty');
+                $data['rows'] = $builder->get()->getResultArray();
+                $data['columns'] = ['ID', 'Anarana Feno', 'Daty nahaterahana', 'Sokajy', 'Asa'];
                 break;
             
             case 'adultes':
@@ -63,7 +69,7 @@ class AdminDashboard extends BaseController
                 $builder->select('idHabitant, CONCAT(nom, " ", prenom) AS nom_complet, date_naissance, sexe, profession');
                 $builder->where('DATE_ADD(date_naissance, INTERVAL 18 YEAR) <= CURDATE()');
                 $data['rows'] = $builder->get()->getResultArray();
-                $data['columns'] = ['ID', 'Nom Complet', 'Date Naissance', 'Sexe', 'Profession'];
+                $data['columns'] = ['ID', 'Anarana Feno', 'Daty nahaterahana', 'Sokajy', 'Asa'];
                 break;
             
             default:

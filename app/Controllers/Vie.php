@@ -24,7 +24,7 @@ class Vie extends BaseController
 
         $model = new HabitantModel();
         $habitant = null;
-
+        //controle input user
         if(!empty($cin))
         {
             //Si cin rempli

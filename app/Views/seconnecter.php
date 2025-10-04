@@ -77,10 +77,12 @@
             <h1>Hiditra</h1>
             <h2>Hiditra amin'ny kaonty</h2>
             <form action="seconnecter" method="POST">
-                <label for="">Solon'anarana</label><br>
-                <input type="text" name="nom" placeholder="Rakoto" required><br>
+                <label for="">Anarana fiantso</label><br>
+                <input type="text" name="nom" placeholder="Rakoto" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')"><br>
                 <label for="">Teny miafina</label><br>
-                <input type="password" name="mdp" placeholder="***********" required><br>
+                <input type="password" name="mdp" placeholder="***********" requiredoninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')"><br>
                 <?php if(!empty($erreur)):?>
                     <!-- <script>
                         alert("")
