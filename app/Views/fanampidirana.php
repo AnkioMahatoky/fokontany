@@ -22,7 +22,7 @@
   <div class="container">
     <div class="card shadow">
       <div class="card-header text-white">
-        <h4 class="mb-0">Fampidirana mponina vaovao</h4>
+        <h4 class="mb-0">Fampidirana mponna vaovao</h4>
       </div>
       <?php if (session()->getFlashdata('error')): ?>
         <div class="alert alert-danger"><?= session()->getFlashdata('error') ?></div>
