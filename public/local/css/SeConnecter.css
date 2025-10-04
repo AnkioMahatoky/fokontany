@@ -62,8 +62,8 @@ body {
 
 .text{
     position: absolute;
-    top: 27%;
-    right: 50%;
+    top: 30%;
+    right: 48%;
 }
 
 .text h1{
@@ -73,7 +73,7 @@ body {
 
 .text p{
     position: relative;
-    left: 17%;
+    left: 2%;
     color: whitesmoke;
     bottom: 2%;
     font-size: 20px;

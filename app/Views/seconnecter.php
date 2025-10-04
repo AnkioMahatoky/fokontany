@@ -74,7 +74,7 @@
         <div class="tongasoa">
         </div>
         <div class="form">
-            <h1>Hiditra</h1>
+            <h1>Fidirana</h1>
             <h2>Hiditra amin'ny kaonty</h2>
             <form action="seconnecter" method="POST">
                 <label for="">Anarana fiantso</label><br>

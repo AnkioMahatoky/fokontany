@@ -18,8 +18,8 @@
         </div>
 
         <div class="text">
-            <h1>Izaho ilay <br>Sefom-pokontany</h1>
-            <p>Eto izahay hanampy anao</p>
+            <h1>Ry Mpandrindra</h1>
+            <p>Ato isika no mikirakira ireo mponina</p>
         </div>
 
         <div class="rigth">

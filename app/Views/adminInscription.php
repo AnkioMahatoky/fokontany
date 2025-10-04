@@ -11,60 +11,14 @@
 </head>
 <body class="hold-transition">
 
-<!-- <div class="container vh-100 d-flex justify-content-center align-items-center">
-    <div class="col-md-8 col-lg-6"> <!-- élargi le formulaire 
-        <?php if(session()->getFlashdata('success')): ?>
-            <p class="text-success"><?= session()->getFlashdata('success') ?></p>
-        <?php endif; ?>
-
-        <form action="<?= base_url('adminInscription/submit') ?>" method="post">
-            <div class="card card-info shadow-lg">
-                <div class="card-header text-center">
-                    <h2 class="">Inscription</h2>
-                </div>
-                <div class="card-body p-5"> <!-- p-5 = padding pour plus de hauteur 
-                    
-                    <div class="input-group mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-user"></i></span>
-                        </div>
-                        <input type="text" class="form-control form-control-lg" placeholder="Nom" name="nom" required>
-                    </div>
-
-                    <div class="input-group mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-phone-alt"></i></span>
-                        </div>
-                        <input type="text" class="form-control form-control-lg" placeholder="Téléphone" name="telephone" required>
-                    </div>
-
-                    <div class="input-group mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
-                        </div>
-                        <input type="password" class="form-control form-control-lg" placeholder="Mot de passe" name="mot_de_passe" required>
-                    </div>
-
-                    <p class="text-center mb-3">
-                        Vous êtes déjà inscrit ? 
-                        <a href="<?= base_url('/adminConnexion') ?>">Se connecter</a>
-                    </p>
-
-                    <button type="submit" class="btn btn-lg btn-block text-white fw-bold" style="background-color:#17a2b8">S'inscrire</button>
-                </div>
-            </div>
-        </form>
-    </div>
-</div> -->
-
 <div class="container">
     <div class="left">
         <img src="<?= base_url('local/image/SaryAdmin-Photoroom.png')?>" class="image" alt="Illustration inscription">
     </div>
 
     <div class="text">
-        <h1>Izaho ilay <br>Sefom-pokontany</h1>
-        <p>Eto izahay hanampy anao</p>
+        <h1>Ry Mpandrindra</h1>
+        <p>Ato isika no mikirakira ireo <br> mponina</p>
     </div>
 
     <div class="rigth">
