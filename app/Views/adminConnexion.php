@@ -28,7 +28,8 @@
 
             <form action="adminConnexion" method="post">
                 <div class="input-group mb-3">
-                    <input type="text" name="nom" class="form-control" placeholder="Anarana" required>
+                    <input type="text" name="nom" class="form-control" placeholder="Anarana" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')">
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-user"></span>
@@ -37,7 +38,8 @@
                 </div>
 
                 <div class="input-group mb-3">
-                    <input type="password" name="mot_de_passe" class="form-control" placeholder="Teny miafina" required>
+                    <input type="password" name="mot_de_passe" class="form-control" placeholder="Teny miafina" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')">
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-lock"></span>

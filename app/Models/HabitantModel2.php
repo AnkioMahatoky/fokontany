@@ -65,15 +65,15 @@ class HabitantModel2 extends Model
     }
 
     public function countMarie() {
-        return $this->where('situation_matrimoniale', 'Marié')->countAllResults();
+        return $this->where('situation_matrimoniale', 'Manambady')->countAllResults();
     }
 
     public function countCelibat() {
-        return $this->where('situation_matrimoniale', 'Célibataire')->countAllResults();
+        return $this->where('situation_matrimoniale', 'Mpitovo')->countAllResults();
     }
 
     public function countVeuf() {
-        return $this->where('situation_matrimoniale', 'Veuf')->countAllResults();
+        return $this->where('situation_matrimoniale', 'Nisara-panambadiana')->countAllResults();
     }
 
     public function getStatsMensuelles()

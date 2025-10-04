@@ -77,7 +77,8 @@
 
         <form action="<?= base_url('adminInscription/submit') ?>" method="post">
             <div class="input-group mb-3">
-                <input type="text" name="nom" class="form-control" placeholder="Anarana" required>
+                <input type="text" name="nom" class="form-control" placeholder="Anarana" required oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')">
                 <div class="input-group-append">
                     <div class="input-group-text">
                         <span class="fas fa-user"></span>
@@ -86,7 +87,8 @@
             </div>
 
             <div class="input-group mb-3">
-                <input type="text" name="telephone" class="form-control" placeholder="Laharana finday" required minlength="10" maxlength="10">
+                <input type="text" name="telephone" class="form-control" placeholder="Laharana finday" pattern="\d{10}" required minlength="10" maxlength="10" oninvalid="this.setCustomValidity('Fenoy ity saha ity azafady')"
+  oninput="this.setCustomValidity('')">
                 <div class="input-group-append">
                     <div class="input-group-text">
                         <span class="fas fa-phone-alt"></span>
@@ -95,7 +97,7 @@
             </div>
 
             <div class="input-group mb-3">
-                <input type="password" name="mot_de_passe" class="form-control" placeholder="Teny miafina" required>
+                <input type="password" name="mot_de_passe" class="form-control" placeholder="Teny miafina" required pattern="\d{10}">
                 <div class="input-group-append">
                     <div class="input-group-text">
                         <span class="fas fa-lock"></span>
@@ -104,7 +106,7 @@
             </div>
 
             <div class="input-group mb-3">
-                <input type="password" name="confirm_mdp" class="form-control" placeholder="Amarino ny Teny miafina" required>
+                <input type="password" name="confirm_mdp" class="form-control" placeholder="Amarino ny Teny miafina" required pattern="\d{10}">
                 <div class="input-group-append">
                     <div class="input-group-text">
                         <span class="fas fa-lock"></span>

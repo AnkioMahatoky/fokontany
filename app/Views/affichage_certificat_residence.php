@@ -26,7 +26,7 @@
       PREFECTURE ANTANANARIVO <br>
       DISTRICT ANTANANARIVO AVARADRANO <br>
       ARRONDISSEMENT V <br>
-      FOKONTANY ANTANAMBAO
+      FOKONTANY ANTSOBOLO
       </p>
       <img src="<?= base_url('../../dist/img/logoRepublique.jpg') ?>" alt="Logo ici" height="100" class="rounded mx-auto d-block">
     </div>
@@ -50,7 +50,7 @@
       <?php endif; ?>
 
         <p>Omena azy izao fanamarinana izao, mba hanan-kery sy ho azo ampiasaina amin'izay rehetra mety ilana azy</p>
-        <p class = "d-flex justify-content-end me-5">Fokontany ANTANAMBAO Androany faha : <?=date("d m Y");?></p>
+        <p class = "d-flex justify-content-end me-5">Fokontany ANTSOBOLO Androany faha : <?=date("d m Y");?></p>
     </div>
 
   </div>
